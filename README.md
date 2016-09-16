@@ -2,9 +2,10 @@
 
 ### [Review Board](https://reviewboard.locately.com/)
 
-1. SVN change list
+1. SVN 
     ```
      svn changelist admin-dashboard
+     svn commit --changelist issue1729 -m "Fixing Issue 1729."
     ```
 
 2. RBT commands
