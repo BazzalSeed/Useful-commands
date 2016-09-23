@@ -35,3 +35,7 @@
     * [complete list of flags](https://www.postgresql.org/docs/devel/static/app-psql.html)
 
 3. under ~/.ssh/config for all configured hosts names
+
+### Ipython
+
+1. [autoreload](https://ipython.org/ipython-doc/3/config/extensions/autoreload.html)
