@@ -2,9 +2,16 @@
 
 ### Unix
 
-1. tar file
+1. tar/untar file
    ```
+   # tar
    tar czf archive_folder_name.tar.gz [target files]
+   # untar
+   First, ensure that you have a shell running and cd to the same directory as the downloaded file.
+   To unpack a .tar file, say foo.tar, use the following command:
+         tar xopf foo.tar
+   The newly extracted files will be created in the current directory. If you also wish to see a list of the files as they are    extracted, instead use the command
+         tar xopft foo.tar
    ```
 ### [Review Board](https://reviewboard.locately.com/)
 
