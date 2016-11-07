@@ -19,6 +19,10 @@
     ```
      svn changelist admin-dashboard
      svn commit --changelist issue1729 -m "Fixing Issue 1729."
+     svn changelist --remove atlassian-jira/secure/views/navigator/navigator.jsp
+     To remove all files from all changelists, pass the top directory of the repository, like this:
+     svn changelist --remove --depth infinity .
+
     ```
 
 2. RBT commands
